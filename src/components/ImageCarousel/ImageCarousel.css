@@ -1,0 +1,68 @@
+/* Slider Container */
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+
+/* Slide Wrapper */
+.slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+/* Each Slide */
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Navigation Dots */
+.navigation {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.nav-dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-dot:hover,
+.nav-dot:focus {
+  background-color: #fff;
+}
+
+/* Anchor Target Behavior */
+#slide-1:target ~ .slides {
+  transform: translateX(0);
+}
+
+#slide-2:target ~ .slides {
+  transform: translateX(-100%);
+}
+
+#slide-3:target ~ .slides {
+  transform: translateX(-200%);
+}
+
+/* Additional Slides Logic */
