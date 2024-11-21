@@ -7,6 +7,7 @@ const RoomDisplay = () => {
   
   return (
     <>
+    <div className="container"><h1>Watch Our Premium Rooms</h1></div>
       {
         hostelData.map((item, i) => {
           return <RoomItem

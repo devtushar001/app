@@ -16,8 +16,8 @@ const Header = () => {
           {isActive ? <img src={nav_icon.menu_icon} onClick={() => { setIsActive(false) }} className="nav_list" /> : <div className="nav_items">
             <div className="list-item">
               <Link to="/"><p onClick={() => { setIsActive(true) }}>Home</p></Link>
-              <Link to="/rooms"><p onClick={() => { setIsActive(true) }}>Rooms</p></Link>
-              <Link to="/bookings"><p onClick={() => { setIsActive(true) }}>Booking</p></Link>
+              <Link to="/room"><p onClick={() => { setIsActive(true) }}>Room</p></Link>
+              <Link to="/bookings"><p onClick={() => { setIsActive(true) }}>Your Booking</p></Link>
             </div>
             <img src={nav_icon.cross_icon} alt="" onClick={() => { setIsActive(true) }} className="cross"/>
           </ div>}

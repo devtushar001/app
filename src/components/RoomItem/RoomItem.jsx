@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 const RoomItem = (props) => {
   const { id, name, type, size, photos, price, reviews, reviewCount } = props;
   const [fphoto] = photos;
-  console.log(reviews);
 
   return (
     <>
