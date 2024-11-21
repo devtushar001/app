@@ -1,0 +1,50 @@
+.room-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.room-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.room-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.room-card {
+  max-width: 300px;
+  text-align: center;
+}
+
+.room-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.room-card h3 {
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+
+.room-card p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.btn-view-room {
+  background-color: #ff5a5f;
+  padding: 8px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-view-room:hover {
+  background-color: #ff4e50;
+}

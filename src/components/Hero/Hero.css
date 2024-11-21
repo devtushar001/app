@@ -1,0 +1,39 @@
+.hero-section {
+  background-image: url('https://images.unsplash.com/photo-1530335875407-47f48e04b0aa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your hero image */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 170, 255);
+  text-align: center;
+  margin: 20px 60px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  border-bottom: 1px solid #fff;
+}
+
+.btn-book-now {
+  padding: 12px 25px;
+  background-color: #ff5a5f; /* Button color */
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-book-now:hover {
+  background-color: #ff4e50;
+}

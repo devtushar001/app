@@ -1,0 +1,48 @@
+.item {
+   margin: 30px 60px;
+   padding: 20px 40px;
+   border: 1px solid #d7d7d78e;
+   background-color: rgba(243, 243, 243, 0.171);
+   cursor: pointer;
+   transition: all 0.8s;
+}
+
+.item:hover {
+  transform: scale(1.01);
+}
+
+.room-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-side {
+  width: 50%;
+  height: 100%;
+}
+
+.room-specification {
+  display: flex;
+  width: 370px;
+  height: 50px;
+}
+
+.room-review img{
+  margin-top: 10px;
+   width: 15px;
+}
+
+.room-check {
+  margin-top: 15px;
+  padding: 7px 20px;
+  background-color: rgba(0, 213, 255, 0.834);
+  font-size: 18px;
+  border: none;
+  color: white;
+}
+
+.room-check:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
