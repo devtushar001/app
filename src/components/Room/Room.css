@@ -1,45 +1,59 @@
-.room-detail-page {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-  }
-  
-  .room-header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .room-title {
-    font-size: 2rem;
-    color: #333;
-  }
-  
-  .room-type {
-    font-size: 1.5rem;
-    color: #777;
-  }
-  
-  .room-price {
-    font-size: 1.2rem;
-    color: #ff5722;
-  }
-  
-  .image-carousel {
-    margin: 20px 0;
-  }
-  
-  .room-details {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .room-description, .room-info, .amenities-section, .additional-info, .reviews-section {
-    flex: 1 1 45%;
-    padding: 10px;
-  }
-  
-  .booking-button-container {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
+.room {
+   margin: 40px 60px;
+   height: auto;
+   background-color: rgba(219, 219, 219, 0.109);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.room-details {
+  padding: 40px;
+}
+
+.room-details h1 {
+  color: rgb(0, 171, 194);
+}
+
+.room-full-details {
+  display: grid;
+  padding: 7px 20px;
+  margin: 20px 0;
+  background-color: rgba(241, 241, 241, 0.807);
+  color: #929292;
+  border-radius: 2px;
+  gap: 3px;
+  grid-template-columns: 1fr 1fr 0.7fr 0.4fr;
+  border: 1px solid rgba(206, 206, 206, 0.724);
+}
+
+.room-full-details p {
+  padding: 7px;
+  border: 1px solid rgba(206, 206, 206, 0.724);
+}
+
+.other-details {
+  margin-left: 45px;
+  display: grid;
+  gap: 7px;
+  grid-template-columns: 0.3fr 0.7fr;
+}
+
+.other-details h3 {
+  margin-bottom: 12px;
+}
+
+.other-details ul {
+  padding: 40px;
+  border: 1px solid rgb(181, 181, 181);
+}
+
+.other-details ul li {
+  list-style: decimal;
+  padding-top: 4px;
+}
+
+.room-description {
+  padding: 40px;
+  border: 1px solid rgb(181, 181, 181);
+  margin-left: 5px;
+  height: 120px;
+}

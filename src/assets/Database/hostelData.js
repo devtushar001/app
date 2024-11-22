@@ -13,7 +13,7 @@ export const hostelData = [
       "Reading Light",
       "Shared Bathroom"
     ],
-    description: "A cozy, budget-friendly room with 4 bunk beds in a mixed-gender dorm. Perfect for solo travelers looking to meet new people.",
+    description: "A cozy, budget-friendly room with 4 bunk beds in a mixed-gender dorm. Perfect for solo travelers looking to meet new people. ",
     bathroom: "Shared bathroom with hot showers",
     view: "Garden view",
     location: "Ground floor, close to the common lounge",

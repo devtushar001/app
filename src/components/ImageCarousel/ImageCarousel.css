@@ -1,10 +1,16 @@
 .slider {
-   margin: 40px 60px;
+   /* margin: 40px 60px; */
    padding: 40px;
-   background-color: rgba(219, 219, 219, 0.55);
+   /* background-color: rgba(219, 219, 219, 0.109); */
 }
 
 .slide {
   display: flex;
   justify-content: space-around;
+  border-bottom: 1px solid rgb(0, 171, 194);
+  padding-bottom: 24px;
+}
+
+.slide img {
+  width: 500px;
 }
