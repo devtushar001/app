@@ -1,53 +1,26 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
-import './Room.css'
 import { HostelContext } from "../../Context/HostelContext";
-import BookingButton from "../BookingButton/BookingButton";
-import Reviews from "../Reviews/Reviews";
-import Amenities from "../Amenites/Amenities";
 import ImageCarousel from "../ImageCarousel/ImageCarousel";
 
 const Room = () => {
-  const { hostelData } = useContext(HostelContext);
   const { id } = useParams();
+  const { hostelData } = useContext(HostelContext);
 
   return (
-    <div className="room-detail-page">
-      {hostelData.map((item) => {
-        if (item.id === id) {
-          const {
-            name,
-            type,
-            price,
-            maxOccupancy,
-            amenities,
-            description,
-            bathroom,
-            view,
-            location,
-            photos,
-            reviews,
-            reviewCount,
-            bookingPolicy,
-            checkInTime,
-            checkOutTime,
-          } = item;
-
+    <>
+      {hostelData.map((room, index) => {
+        if (room.id == id) {
+          const { photos } = room;
+          const [fphoto, sphoto] = photos;
           return (
-            <div className="room-container">
-               {photos.map((photo, index) => {
-                <ul key={index}>
-                  <li>{photo}</li>
-                </ul>
-               })}
-            </div>
-          );
+            <>
+              {<ImageCarousel fphoto={fphoto} sphoto={sphoto} />}
+            </>
+          )
         }
-        
       })}
-    </div>
-  );
-};
-
-
+    </>
+  )
+}
 export default Room;
