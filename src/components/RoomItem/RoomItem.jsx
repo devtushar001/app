@@ -23,7 +23,7 @@ const RoomItem = (props) => {
             </div>
             <div className="price">{price}</div>
             <div className="room-review">
-              <p>{reviews} <img src={nav_icon.heart_icon} alt="" /> <span>{reviewCount}</span></p>
+              <p>Reviews : {reviews} &#9733; <br /><span> Review Count : {reviewCount}</span></p>
             </div>
             <Link to={`/room/${id}`}>
               <button className="room-check">Check Details</button>

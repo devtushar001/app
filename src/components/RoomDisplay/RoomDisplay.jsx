@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { HostelContext } from "../../Context/HostelContext";
 import RoomItem from "../RoomItem/RoomItem";
+import './RoomDisplay.css'
 
 const RoomDisplay = () => {
   const { hostelData } = useContext(HostelContext);

@@ -1,7 +1,7 @@
 .room {
    margin: 40px 60px;
    height: auto;
-   background-color: rgba(219, 219, 219, 0.109);
+   background: linear-gradient(180deg, rgba(2, 184, 245, 0.669), rgba(228, 228, 228, 0.52)) rgba(219, 219, 219, 0.109);
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -17,17 +17,17 @@
   display: grid;
   padding: 7px 20px;
   margin: 20px 0;
-  background-color: rgba(241, 241, 241, 0.807);
-  color: #929292;
+  background: rgba(227, 227, 227, 0.197);
+  backdrop-filter: blur(30px);
+  color: #717171;
   border-radius: 2px;
   gap: 3px;
   grid-template-columns: 1fr 1fr 0.7fr 0.4fr;
-  border: 1px solid rgba(206, 206, 206, 0.724);
 }
 
-.room-full-details p {
-  padding: 7px;
-  border: 1px solid rgba(206, 206, 206, 0.724);
+.room-details P {
+  padding-left: 7px;
+  border-left: 1px solid rgb(117, 115, 115);
 }
 
 .other-details {
@@ -35,6 +35,7 @@
   display: grid;
   gap: 7px;
   grid-template-columns: 0.3fr 0.7fr;
+  color: #3f3f3f;
 }
 
 .other-details h3 {
@@ -55,5 +56,44 @@
   padding: 40px;
   border: 1px solid rgb(181, 181, 181);
   margin-left: 5px;
-  height: 120px;
+  height: auto;
+}
+
+.room-ratings {
+  color: #717171;
+  margin: 0 40px;
+  font-size: 22px;
+  padding-bottom: 12px;
+  /* border-bottom: 1px solid #00aaff; */
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.to-booking {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 7px;
+  color: #717171;
+  /* background-color: red; */
+  padding-bottom: 35px;
+}
+
+.to-booking-btn {
+  width: 80%;
+  margin-left: 80px;
+  height: 35px;
+  border: none;
+  background-color: rgb(0, 104, 207);
+  color: #d5d5d5;
+  font-size: 17px;
+}
+
+.room-btn {
+  width: 100%;
+  margin-left: -70px;
+  font-size: 17px;
+  height: 35px;
+  border: 1px solid rgb(0, 104, 207);
 }

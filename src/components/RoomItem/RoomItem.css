@@ -22,6 +22,15 @@
   height: 100%;
 }
 
+.left-side {
+  width: 450px;
+  overflow: hidden;
+}
+
+.left-side img {
+  width: 100%;
+}
+
 .room-specification {
   display: flex;
   width: 370px;

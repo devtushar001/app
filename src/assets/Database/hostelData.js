@@ -18,8 +18,8 @@ export const hostelData = [
     view: "Garden view",
     location: "Ground floor, close to the common lounge",
     photos: [
-      "https://via.placeholder.com/400x200?text=Standard+4-Bed+Mixed+Dorm+1",
-      "https://via.placeholder.com/400x200?text=Standard+4-Bed+Mixed+Dorm+2"
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1663126298656-33616be83c32?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     reviews: 4.5,
     reviewCount: 120,
@@ -47,8 +47,8 @@ export const hostelData = [
     view: "City view",
     location: "1st floor, near the elevator",
     photos: [
-      "https://via.placeholder.com/400x200?text=Private+Double+Room+1",
-      "https://via.placeholder.com/400x200?text=Private+Double+Room+2"
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?q=80&w=1409&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     reviews: 4.8,
     reviewCount: 85,
@@ -76,8 +76,8 @@ export const hostelData = [
     view: "City view",
     location: "2nd floor, near the kitchen",
     photos: [
-      "https://via.placeholder.com/400x200?text=Deluxe+6-Bed+Female+Dorm+1",
-      "https://via.placeholder.com/400x200?text=Deluxe+6-Bed+Female+Dorm+2"
+      "https://plus.unsplash.com/premium_photo-1671228941029-1b1b9ca66f7e?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1675616575354-1d48fe2992ad?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     reviews: 4.7,
     reviewCount: 200,
@@ -107,8 +107,8 @@ export const hostelData = [
     view: "Panoramic city view",
     location: "Top floor, corner suite",
     photos: [
-      "https://via.placeholder.com/400x200?text=Luxury+Penthouse+Suite+1",
-      "https://via.placeholder.com/400x200?text=Luxury+Penthouse+Suite+2"
+      "https://images.unsplash.com/photo-1502921451607-29fa99d270d4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     reviews: 4.9,
     reviewCount: 50,
@@ -138,8 +138,8 @@ export const hostelData = [
     view: "Garden view",
     location: "Ground floor, near the playground",
     photos: [
-      "https://via.placeholder.com/400x200?text=Family+Room+with+Bunk+Beds+1",
-      "https://via.placeholder.com/400x200?text=Family+Room+with+Bunk+Beds+2"
+      "https://images.unsplash.com/photo-1519974719765-e6559eac2575?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1558882224-dda166733046?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     reviews: 4.6,
     reviewCount: 130,
@@ -166,8 +166,8 @@ export const hostelData = [
     view: "No view (internal pod)",
     location: "Near the common room",
     photos: [
-      "https://via.placeholder.com/400x200?text=Capsule+Pod+1",
-      "https://via.placeholder.com/400x200?text=Capsule+Pod+2"
+      "https://plus.unsplash.com/premium_photo-1723200799213-e6cff0c3e641?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     reviews: 4.4,
     reviewCount: 180,
